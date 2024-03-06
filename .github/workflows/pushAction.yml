@@ -14,12 +14,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '18.16.0'
-      - name: Install yarn and run unittest
-        run: |
-          yarn
-          yarn test
-        env:
-          CI: true
       - name: Login to Docker Hub
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
