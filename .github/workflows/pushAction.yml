@@ -1,0 +1,38 @@
+name: build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 13.10
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.10'
+      - name: Install yarn and run unittest
+        run: |
+          yarn
+          yarn test
+        env:
+          CI: true
+      - name: Login to Docker Hub
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: kenessajr/react-with-actions/react-with-actions
+          registry: docker.pkg.github.com
+          username: ${{ secrets.GITHUB_USERNAME }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          dockerfile: Dockerfile-prod
+          tags: latest
+      - name: Build and push
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/suphotelreact:latest
