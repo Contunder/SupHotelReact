@@ -33,11 +33,11 @@ export const register = async (name: {}, lastName: {}, birthday: {}, address: {}
 export const login = (email: {}, password: {}) => {
   return axios
     .post(API_URL + "login", {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, POST',
-        'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-      },
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST',
+            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+        },
       email,
       password,
     })
