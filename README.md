@@ -27,10 +27,16 @@
     - Docker Front : docker push valden01/suphotelreact:tagname
         - Front Port Mapping : 3000
 
+## For Use 
+
+- Node 18.16.0
+- Npm 9.8.1
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
 
 ### `npm start`
 
