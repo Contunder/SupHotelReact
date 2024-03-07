@@ -22,7 +22,6 @@ function Navbar() {
                 </Center>
                 {!getCurrentUser() && (
                 <Center size="16" mr="5">
-
                     <Login />
                 </Center>
                 )}

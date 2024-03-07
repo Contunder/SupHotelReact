@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cac26aa-b03d-45cb-9d58-707c666d51a7" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/Component/HotelWithFilter.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/SearchBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/hotel.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/hotel.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,34 +67,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/valen/Documents/GitHub/SupHotel/SupHotel/SupHotelAPI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\valen\\Documents\\GitHub\\SupHotel\\sup_hotel\\SupHotelReact\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/valen/Documents/GitHub/SupHotel/SupHotel/SupHotelAPI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/valen/Documents/GitHub/SupHotel/sup_hotel/SupHotelReact/node_modules/react-scripts",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\valen\\Documents\\GitHub\\SupHotel\\sup_hotel\\SupHotelReact\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="npm.npm start">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\valen\Documents\GitHub\SupHotel\sup_hotel\SupHotelReact\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.s’affiche avec ou sans nom">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s’affiche avec ou sans nom" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/login.tsx" />
+      <test-names>
+        <test-name value="s’affiche avec ou sans nom" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -139,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.s’affiche avec ou sans nom" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Jest.All Tests" />
         <item itemvalue="npm.build" />
@@ -158,7 +173,7 @@
       <workItem from="1709737122312" duration="3052000" />
       <workItem from="1709741311800" duration="65000" />
       <workItem from="1709741379269" duration="2085000" />
-      <workItem from="1709819909571" duration="3096000" />
+      <workItem from="1709819909571" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -176,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709742294744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1709823158730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709823158730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
