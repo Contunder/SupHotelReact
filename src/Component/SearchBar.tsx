@@ -72,7 +72,19 @@ function SearchBar() {
                     </Button>
                 </Center>
             </Flex>
-        </Box><Flex direction="row" wrap="wrap" mt="50" maxW="950">
+        </Box>
+            {posts && (
+                <Center width="450" mb="10" colorScheme="black">
+                    <Text fontSize="xl" _light={{
+                        color: "violet.500"
+                    }} _dark={{
+                        color: "violet.400"
+                    }}>
+                        Search Result
+                    </Text>
+                </Center>
+            )}
+            <Flex direction="row" wrap="wrap" mt="50" maxW="950">
             {posts && posts.content?.map((post) => (
                 <Center width="450" mb="10">
                     <Box alignItems="center">
@@ -115,7 +127,7 @@ function SearchBar() {
                                         {post.address} {post.city} {post.country}
                                     </Text>
                                 </Stack>
-                                <Text fontWeight="20">
+                                <Text fontWeight="200" fontSize="12">
                                     {post.description}
                                 </Text>
                             </Stack>
@@ -123,7 +135,19 @@ function SearchBar() {
                     </Box>
                 </Center>
             ))}
-        </Flex></>
+        </Flex>
+            {posts && (
+                <Center width="450" mb="10" colorScheme="black">
+                    <Text fontSize="xl" _light={{
+                        color: "violet.500"
+                    }} _dark={{
+                        color: "violet.400"
+                    }}>
+                        ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+                    </Text>
+                </Center>
+            )}
+        </>
     );
 }
 
