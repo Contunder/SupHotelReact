@@ -21,6 +21,7 @@ function AllHotel() {
 
     return (
         <Flex direction="row" wrap="wrap" mt="50" maxW="950">
+
             {posts && posts.content?.map((post) => (
             <Center width="450" mb="10">
                 <Box alignItems="center">
