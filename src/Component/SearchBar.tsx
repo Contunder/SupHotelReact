@@ -8,11 +8,12 @@ import {
     Heading,
     Image,
     Input,
-    Stack, Text,
+    Stack,
+    Text,
     useColorMode
 } from "native-base";
 import {useState} from "react";
-import {getAllHotel, getHotelWithFilter} from "../Service/hotel.service";
+import {getHotelWithFilter} from "../Service/hotel.service";
 import PostType from "../Type/post.type";
 
 function SearchBar() {

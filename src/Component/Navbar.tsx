@@ -1,8 +1,6 @@
 import {Box, Button, Center, Flex, HStack, Switch, Text, useColorMode,} from "native-base";
-import { GestureResponderEvent } from "react-native/types";
 import Login from "../Form/Login";
 import {getCurrentUser, logout} from "../Service/auth.service";
-import {getHotelWithFilter} from "../Service/hotel.service";
 
 function Navbar() {
     const {colorMode} = useColorMode();
