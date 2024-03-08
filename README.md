@@ -9,10 +9,12 @@
 - Github Action
 - Docker
 
-    - #### Not Finish :
+    - #### Not Finish : 
         - Booking CRUD
         - Booking Option
         - Booking Price
+        - User CRUD
+        - Hotel CRUD
 
 
 ## Links
