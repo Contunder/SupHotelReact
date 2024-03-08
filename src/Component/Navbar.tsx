@@ -1,9 +1,15 @@
 import {Box, Button, Center, Flex, HStack, Switch, Text, useColorMode,} from "native-base";
+import { GestureResponderEvent } from "react-native/types";
 import Login from "../Form/Login";
 import {getCurrentUser, logout} from "../Service/auth.service";
+import {getHotelWithFilter} from "../Service/hotel.service";
 
 function Navbar() {
     const {colorMode} = useColorMode();
+
+    const onSubmit = () => {
+        window.location.reload()
+    };
 
     return (
         <Box
@@ -16,7 +22,7 @@ function Navbar() {
                     SupHotel
                 </Center>
                 <Center size="16" mr="5">
-                    <Button size="sm" variant="ghost" colorScheme={colorMode === "light" ? "primary" : "secondary"}>
+                    <Button size="sm" variant="ghost" colorScheme={colorMode === "light" ? "primary" : "secondary"} onPress={onSubmit}>
                         Index
                     </Button>
                 </Center>
